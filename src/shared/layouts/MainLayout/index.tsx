@@ -10,9 +10,9 @@ const MainLayout = () => {
   return (
     <div className="flex gap-4">
         <Sidebar />
-        <div className="flex-1">
+        <div className="flex-1 p-8">
             <h1 className="text-2xl font-bold">{title}</h1>
-            <div >
+            <div className="mt-4 max-h-screen overflow-y-auto">
                 <Outlet />
             </div>
         </div>

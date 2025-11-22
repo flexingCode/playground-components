@@ -18,6 +18,7 @@ export default defineConfig({
       '@router': path.resolve(__dirname, './src/router'),
       '@shared': path.resolve(__dirname, './src/shared'),
       '@assets': path.resolve(__dirname, './src/assets'),
+      '@data': path.resolve(__dirname, './src/data'),
     },
   },
 })
