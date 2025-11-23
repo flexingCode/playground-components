@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "name": "RGB Gaming Headphones",
+    "price": 35.99,
+    "sku": "SKU-0001",
+    "image": "https://picsum.photos/seed/1/300/200",
+    "brand": "SonicGear",
+    "stock": 95,
+    "category": "Technology"
+  },
+  {
+    "id": 2,
+    "name": "Ergonomic Wireless Mouse",
+    "price": 17.49,
+    "sku": "SKU-0002",
+    "image": "https://picsum.photos/seed/2/300/200",
+    "brand": "LogiTech",
+    "stock": 54,
+    "category": "Technology"
+  },
+  {
+    "id": 3,
+    "name": "Stainless Steel Water Bottle",
+    "price": 12.99,
+    "sku": "SKU-0003",
+    "image": "https://picsum.photos/seed/3/300/200",
+    "brand": "HydroLife",
+    "stock": 73,
+    "category": "Home"
+  },
+  {
+    "id": 4,
+    "name": "Portable Charger 10000mAh",
+    "price": 22.50,
+    "sku": "SKU-0004",
+    "image": "https://picsum.photos/seed/4/300/200",
+    "brand": "PowerMax",
+    "stock": 40,
+    "category": "Technology"
+  },
+  {
+    "id": 5,
+    "name": "DryFit Sports T-Shirt",
+    "price": 14.80,
+    "sku": "SKU-0005",
+    "image": "https://picsum.photos/seed/5/300/200",
+    "brand": "Sportica",
+    "stock": 120,
+    "category": "Clothing"
+  },
+  {
+    "id": 6,
+    "name": "SmartFit Smartwatch",
+    "price": 65.90,
+    "sku": "SKU-0006",
+    "image": "https://picsum.photos/seed/6/300/200",
+    "brand": "SmartTech",
+    "stock": 26,
+    "category": "Technology"
+  },
+  {
+    "id": 7,
+    "name": "Waterproof Backpack",
+    "price": 28.75,
+    "sku": "SKU-0007",
+    "image": "https://picsum.photos/seed/7/300/200",
+    "brand": "BackPackly",
+    "stock": 60,
+    "category": "Accessories"
+  },
+  {
+    "id": 8,
+    "name": "UV400 Sunglasses",
+    "price": 11.20,
+    "sku": "SKU-0008",
+    "image": "https://picsum.photos/seed/8/300/200",
+    "brand": "SunProtect",
+    "stock": 82,
+    "category": "Accessories"
+  },
+  {
+    "id": 9,
+    "name": "500ml Coffee Thermos",
+    "price": 15.10,
+    "sku": "SKU-0009",
+    "image": "https://picsum.photos/seed/9/300/200",
+    "brand": "ThermoGo",
+    "stock": 34,
+    "category": "Home"
+  },
+  {
+    "id": 10,
+    "name": "RGB Mechanical Keyboard",
+    "price": 49.90,
+    "sku": "SKU-0010",
+    "image": "https://picsum.photos/seed/10/300/200",
+    "brand": "KeyMaster",
+    "stock": 77,
+    "category": "Technology"
+  },
+  {
+    "id": 11,
+    "name": "Urban Run Sports Shoes",
+    "price": 39.99,
+    "sku": "SKU-0011",
+    "image": "https://picsum.photos/seed/11/300/200",
+    "brand": "UrbanFit",
+    "stock": 33,
+    "category": "Clothing"
+  },
+  {
+    "id": 12,
+    "name": "Unisex Classic Hoodie",
+    "price": 23.40,
+    "sku": "SKU-0012",
+    "image": "https://picsum.photos/seed/12/300/200",
+    "brand": "CoolWear",
+    "stock": 99,
+    "category": "Clothing"
+  },
+  {
+    "id": 13,
+    "name": "LED Desk Lamp",
+    "price": 18.65,
+    "sku": "SKU-0013",
+    "image": "https://picsum.photos/seed/13/300/200",
+    "brand": "Ilumina",
+    "stock": 39,
+    "category": "Home"
+  },
+  {
+    "id": 14,
+    "name": "Sports Phone Armband",
+    "price": 6.75,
+    "sku": "SKU-0014",
+    "image": "https://picsum.photos/seed/14/300/200",
+    "brand": "RunCase",
+    "stock": 58,
+    "category": "Accessories"
+  },
+  {
+    "id": 15,
+    "name": "Viscoelastic Pillow",
+    "price": 27.30,
+    "sku": "SKU-0015",
+    "image": "https://picsum.photos/seed/15/300/200",
+    "brand": "Descansa",
+    "stock": 24,
+    "category": "Home"
+  },
+  {
+    "id": 16,
+    "name": "Black Leather Wallet",
+    "price": 19.50,
+    "sku": "SKU-0016",
+    "image": "https://picsum.photos/seed/16/300/200",
+    "brand": "Fina Piel",
+    "stock": 46,
+    "category": "Accessories"
+  },
+  {
+    "id": 17,
+    "name": "Portable USB Cooler",
+    "price": 13.95,
+    "sku": "SKU-0017",
+    "image": "https://picsum.photos/seed/17/300/200",
+    "brand": "BreezeIt",
+    "stock": 22,
+    "category": "Technology"
+  },
+  {
+    "id": 18,
+    "name": "Absorbent Sports Towel",
+    "price": 8.20,
+    "sku": "SKU-0018",
+    "image": "https://picsum.photos/seed/18/300/200",
+    "brand": "Sportica",
+    "stock": 90,
+    "category": "Clothing"
+  },
+  {
+    "id": 19,
+    "name": "Full HD Webcam",
+    "price": 29.60,
+    "sku": "SKU-0019",
+    "image": "https://picsum.photos/seed/19/300/200",
+    "brand": "ViewMax",
+    "stock": 41,
+    "category": "Technology"
+  },
+  {
+    "id": 20,
+    "name": "Hand Blender Multiuse",
+    "price": 31.25,
+    "sku": "SKU-0020",
+    "image": "https://picsum.photos/seed/20/300/200",
+    "brand": "Cocinalo",
+    "stock": 37,
+    "category": "Home"
+  },
+  {
+    "id": 21,
+    "name": "2024 Annual Planner",
+    "price": 9.90,
+    "sku": "SKU-0021",
+    "image": "https://picsum.photos/seed/21/300/200",
+    "brand": "PaperArt",
+    "stock": 73,
+    "category": "Stationery"
+  },
+  {
+    "id": 22,
+    "name": "Colored Pencil Set",
+    "price": 5.60,
+    "sku": "SKU-0022",
+    "image": "https://picsum.photos/seed/22/300/200",
+    "brand": "ColorMix",
+    "stock": 111,
+    "category": "Stationery"
+  },
+  {
+    "id": 23,
+    "name": "Transparent Phone Case",
+    "price": 7.80,
+    "sku": "SKU-0023",
+    "image": "https://picsum.photos/seed/23/300/200",
+    "brand": "ClearCase",
+    "stock": 65,
+    "category": "Accessories"
+  },
+  {
+    "id": 24,
+    "name": "Classic Navy Blue Cap",
+    "price": 10.30,
+    "sku": "SKU-0024",
+    "image": "https://picsum.photos/seed/24/300/200",
+    "brand": "Capster",
+    "stock": 87,
+    "category": "Accessories"
+  },
+  {
+    "id": 25,
+    "name": "Running Pro Sneakers",
+    "price": 56.00,
+    "sku": "SKU-0025",
+    "image": "https://picsum.photos/seed/25/300/200",
+    "brand": "UrbanFit",
+    "stock": 19,
+    "category": "Clothing"
+  },
+  {
+    "id": 26,
+    "name": "Reversible Brown-Black Belt",
+    "price": 16.40,
+    "sku": "SKU-0026",
+    "image": "https://picsum.photos/seed/26/300/200",
+    "brand": "BeltUp",
+    "stock": 23,
+    "category": "Accessories"
+  },
+  {
+    "id": 27,
+    "name": "100 Sheets Spiral Notebook",
+    "price": 3.90,
+    "sku": "SKU-0027",
+    "image": "https://picsum.photos/seed/27/300/200",
+    "brand": "PaperArt",
+    "stock": 200,
+    "category": "Stationery"
+  },
+  {
+    "id": 28,
+    "name": "Unisex Casual T-Shirt",
+    "price": 13.20,
+    "sku": "SKU-0028",
+    "image": "https://picsum.photos/seed/28/300/200",
+    "brand": "CoolWear",
+    "stock": 101,
+    "category": "Clothing"
+  },
+  {
+    "id": 29,
+    "name": "Ergonomic Office Chair",
+    "price": 129.90,
+    "sku": "SKU-0029",
+    "image": "https://picsum.photos/seed/29/300/200",
+    "brand": "SittUp",
+    "stock": 14,
+    "category": "Home"
+  },
+  {
+    "id": 30,
+    "name": "Compact Steam Iron",
+    "price": 26.45,
+    "sku": "SKU-0030",
+    "image": "https://picsum.photos/seed/30/300/200",
+    "brand": "IronEasy",
+    "stock": 33,
+    "category": "Home"
+  },
+  {
+    "id": 31,
+    "name": "Sports Bluetooth Earbuds",
+    "price": 24.00,
+    "sku": "SKU-0031",
+    "image": "https://picsum.photos/seed/31/300/200",
+    "brand": "SonicGear",
+    "stock": 81,
+    "category": "Technology"
+  },
+  {
+    "id": 32,
+    "name": "Classic Wristwatch",
+    "price": 43.10,
+    "sku": "SKU-0032",
+    "image": "https://picsum.photos/seed/32/300/200",
+    "brand": "Horarios",
+    "stock": 30,
+    "category": "Accessories"
+  },
+  {
+    "id": 33,
+    "name": "350ml Ceramic Coffee Mug",
+    "price": 8.50,
+    "sku": "SKU-0033",
+    "image": "https://picsum.photos/seed/33/300/200",
+    "brand": "ThermoGo",
+    "stock": 55,
+    "category": "Home"
+  },
+  {
+    "id": 34,
+    "name": "Portable Bluetooth Speaker",
+    "price": 32.20,
+    "sku": "SKU-0034",
+    "image": "https://picsum.photos/seed/34/300/200",
+    "brand": "AudioBeat",
+    "stock": 45,
+    "category": "Technology"
+  },
+  {
+    "id": 35,
+    "name": "Ping Pong Paddle Set",
+    "price": 18.30,
+    "sku": "SKU-0035",
+    "image": "https://picsum.photos/seed/35/300/200",
+    "brand": "PlayNow",
+    "stock": 28,
+    "category": "Toys"
+  },
+  {
+    "id": 36,
+    "name": "Running Sports Cap",
+    "price": 9.49,
+    "sku": "SKU-0036",
+    "image": "https://picsum.photos/seed/36/300/200",
+    "brand": "Capster",
+    "stock": 72,
+    "category": "Accessories"
+  },
+  {
+    "id": 37,
+    "name": "Universal Wireless Charger",
+    "price": 21.50,
+    "sku": "SKU-0037",
+    "image": "https://picsum.photos/seed/37/300/200",
+    "brand": "PowerMax",
+    "stock": 61,
+    "category": "Technology"
+  },
+  {
+    "id": 38,
+    "name": "Minimalist Card Wallet",
+    "price": 8.80,
+    "sku": "SKU-0038",
+    "image": "https://picsum.photos/seed/38/300/200",
+    "brand": "Fina Piel",
+    "stock": 44,
+    "category": "Accessories"
+  },
+  {
+    "id": 39,
+    "name": "LED Night Light Lamp",
+    "price": 7.50,
+    "sku": "SKU-0039",
+    "image": "https://picsum.photos/seed/39/300/200",
+    "brand": "Ilumina",
+    "stock": 80,
+    "category": "Home"
+  },
+  {
+    "id": 40,
+    "name": "700ml Tritan Sports Bottle",
+    "price": 10.99,
+    "sku": "SKU-0040",
+    "image": "https://picsum.photos/seed/40/300/200",
+    "brand": "HydroLife",
+    "stock": 67,
+    "category": "Home"
+  },
+  {
+    "id": 41,
+    "name": "Fitness Training Gloves",
+    "price": 13.60,
+    "sku": "SKU-0041",
+    "image": "https://picsum.photos/seed/41/300/200",
+    "brand": "Sportica",
+    "stock": 79,
+    "category": "Clothing"
+  },
+  {
+    "id": 42,
+    "name": "Rechargeable LED Flashlight",
+    "price": 14.25,
+    "sku": "SKU-0042",
+    "image": "https://picsum.photos/seed/42/300/200",
+    "brand": "Ilumina",
+    "stock": 31,
+    "category": "Home"
+  },
+  {
+    "id": 43,
+    "name": "Sports Socks x3",
+    "price": 7.20,
+    "sku": "SKU-0043",
+    "image": "https://picsum.photos/seed/43/300/200",
+    "brand": "Sportica",
+    "stock": 102,
+    "category": "Clothing"
+  },
+  {
+    "id": 44,
+    "name": "2m Type C Cable",
+    "price": 4.99,
+    "sku": "SKU-0044",
+    "image": "https://picsum.photos/seed/44/300/200",
+    "brand": "PowerMax",
+    "stock": 129,
+    "category": "Technology"
+  },
+  {
+    "id": 45,
+    "name": "Infrared Digital Thermometer",
+    "price": 18.60,
+    "sku": "SKU-0045",
+    "image": "https://picsum.photos/seed/45/300/200",
+    "brand": "SaludPlus",
+    "stock": 25,
+    "category": "Home"
+  },
+  {
+    "id": 46,
+    "name": "Sticky Note Pad Planner",
+    "price": 5.50,
+    "sku": "SKU-0046",
+    "image": "https://picsum.photos/seed/46/300/200",
+    "brand": "PaperArt",
+    "stock": 77,
+    "category": "Stationery"
+  },
+  {
+    "id": 47,
+    "name": "Pencil Organizer Case",
+    "price": 7.10,
+    "sku": "SKU-0047",
+    "image": "https://picsum.photos/seed/47/300/200",
+    "brand": "ColorMix",
+    "stock": 39,
+    "category": "Stationery"
+  },
+  {
+    "id": 48,
+    "name": "Non-Stick Waffle Maker",
+    "price": 23.80,
+    "sku": "SKU-0048",
+    "image": "https://picsum.photos/seed/48/300/200",
+    "brand": "Cocinalo",
+    "stock": 21,
+    "category": "Home"
+  },
+  {
+    "id": 49,
+    "name": "Portable Folding Chair",
+    "price": 24.90,
+    "sku": "SKU-0049",
+    "image": "https://picsum.photos/seed/49/300/200",
+    "brand": "SittUp",
+    "stock": 33,
+    "category": "Home"
+  },
+  {
+    "id": 50,
+    "name": "Reflective Safety Tape",
+    "price": 4.20,
+    "sku": "SKU-0050",
+    "image": "https://picsum.photos/seed/50/300/200",
+    "brand": "SafeLite",
+    "stock": 82,
+    "category": "Accessories"
+  },
+  {
+    "id": 51,
+    "name": "Portable Cutlery Set",
+    "price": 12.50,
+    "sku": "SKU-0051",
+    "image": "https://picsum.photos/seed/51/300/200",
+    "brand": "TravelEat",
+    "stock": 46,
+    "category": "Home"
+  },
+  {
+    "id": 52,
+    "name": "Extendable Selfie Stick",
+    "price": 9.40,
+    "sku": "SKU-0052",
+    "image": "https://picsum.photos/seed/52/300/200",
+    "brand": "SmartTech",
+    "stock": 66,
+    "category": "Technology"
+  },
+  {
+    "id": 53,
+    "name": "Absorbent Sports Headband",
+    "price": 3.15,
+    "sku": "SKU-0053",
+    "image": "https://picsum.photos/seed/53/300/200",
+    "brand": "Sportica",
+    "stock": 85,
+    "category": "Clothing"
+  },
+  {
+    "id": 54,
+    "name": "Automatic Folding Umbrella",
+    "price": 13.80,
+    "sku": "SKU-0054",
+    "image": "https://picsum.photos/seed/54/300/200",
+    "brand": "RainSafe",
+    "stock": 58,
+    "category": "Accessories"
+  },
+  {
+    "id": 55,
+    "name": "Cotton Slippers",
+    "price": 11.25,
+    "sku": "SKU-0055",
+    "image": "https://picsum.photos/seed/55/300/200",
+    "brand": "Descansa",
+    "stock": 79,
+    "category": "Home"
+  },
+  {
+    "id": 56,
+    "name": "Double Sheet Set",
+    "price": 30.00,
+    "sku": "SKU-0056",
+    "image": "https://picsum.photos/seed/56/300/200",
+    "brand": "Descansa",
+    "stock": 43,
+    "category": "Home"
+  },
+  {
+    "id": 57,
+    "name": "Sports Waist Pack with Pocket",
+    "price": 5.90,
+    "sku": "SKU-0057",
+    "image": "https://picsum.photos/seed/57/300/200",
+    "brand": "RunCase",
+    "stock": 64,
+    "category": "Accessories"
+  },
+  {
+    "id": 58,
+    "name": "UltraLight Waterproof Jacket",
+    "price": 22.60,
+    "sku": "SKU-0058",
+    "image": "https://picsum.photos/seed/58/300/200",
+    "brand": "CoolWear",
+    "stock": 29,
+    "category": "Clothing"
+  },
+  {
+    "id": 59,
+    "name": "Wooden Desk Organizer",
+    "price": 15.30,
+    "sku": "SKU-0059",
+    "image": "https://picsum.photos/seed/59/300/200",
+    "brand": "HomeOrg",
+    "stock": 53,
+    "category": "Stationery"
+  },
+  {
+    "id": 60,
+    "name": "5kg Hex Dumbbells",
+    "price": 38.00,
+    "sku": "SKU-0060",
+    "image": "https://picsum.photos/seed/60/300/200",
+    "brand": "Sportica",
+    "stock": 36,
+    "category": "Clothing"
+  },
+  {
+    "id": 61,
+    "name": "3pc Non-Stick Pan Set",
+    "price": 44.90,
+    "sku": "SKU-0061",
+    "image": "https://picsum.photos/seed/61/300/200",
+    "brand": "Cocinalo",
+    "stock": 22,
+    "category": "Home"
+  },
+  {
+    "id": 62,
+    "name": "Casual Winter Parka",
+    "price": 49.90,
+    "sku": "SKU-0062",
+    "image": "https://picsum.photos/seed/62/300/200",
+    "brand": "ColdWear",
+    "stock": 12,
+    "category": "Clothing"
+  },
+  {
+    "id": 63,
+    "name": "4K Ultra Sports Camera",
+    "price": 61.50,
+    "sku": "SKU-0063",
+    "image": "https://picsum.photos/seed/63/300/200",
+    "brand": "VidCam",
+    "stock": 15,
+    "category": "Technology"
+  },
+  {
+    "id": 64,
+    "name": "360° Laptop Stand",
+    "price": 18.90,
+    "sku": "SKU-0064",
+    "image": "https://picsum.photos/seed/64/300/200",
+    "brand": "StandUp",
+    "stock": 45,
+    "category": "Technology"
+  },
+  {
+    "id": 65,
+    "name": "Stainless Steel Electric Kettle",
+    "price": 34.60,
+    "sku": "SKU-0065",
+    "image": "https://picsum.photos/seed/65/300/200",
+    "brand": "Cocinalo",
+    "stock": 19,
+    "category": "Home"
+  },
+  {
+    "id": 66,
+    "name": "Fast Charging USB Plug",
+    "price": 8.15,
+    "sku": "SKU-0066",
+    "image": "https://picsum.photos/seed/66/300/200",
+    "brand": "PowerMax",
+    "stock": 106,
+    "category": "Technology"
+  },
+  {
+    "id": 67,
+    "name": "4pc Crystal Wine Glass Set",
+    "price": 28.70,
+    "sku": "SKU-0067",
+    "image": "https://picsum.photos/seed/67/300/200",
+    "brand": "HomeOrg",
+    "stock": 37,
+    "category": "Home"
+  },
+  {
+    "id": 68,
+    "name": "Youth School Backpack",
+    "price": 19.99,
+    "sku": "SKU-0068",
+    "image": "https://picsum.photos/seed/68/300/200",
+    "brand": "BackPackly",
+    "stock": 82,
+    "category": "Accessories"
+  },
+  {
+    "id": 69,
+    "name": "Classic Executive Briefcase",
+    "price": 42.50,
+    "sku": "SKU-0069",
+    "image": "https://picsum.photos/seed/69/300/200",
+    "brand": "Bagluxe",
+    "stock": 17,
+    "category": "Accessories"
+  },
+  {
+    "id": 70,
+    "name": "Hands-Free Earphones",
+    "price": 12.75,
+    "sku": "SKU-0070",
+    "image": "https://picsum.photos/seed/70/300/200",
+    "brand": "SonicGear",
+    "stock": 24,
+    "category": "Technology"
+  },
+  {
+    "id": 71,
+    "name": "Digital Kitchen Scale",
+    "price": 16.40,
+    "sku": "SKU-0071",
+    "image": "https://picsum.photos/seed/71/300/200",
+    "brand": "Cocinalo",
+    "stock": 31,
+    "category": "Home"
+  },
+  {
+    "id": 72,
+    "name": "Carry-On Travel Suitcase",
+    "price": 49.99,
+    "sku": "SKU-0072",
+    "image": "https://picsum.photos/seed/72/300/200",
+    "brand": "Bagluxe",
+    "stock": 15,
+    "category": "Accessories"
+  },
+  {
+    "id": 73,
+    "name": "Urban Flat Cap",
+    "price": 11.99,
+    "sku": "SKU-0073",
+    "image": "https://picsum.photos/seed/73/300/200",
+    "brand": "Capster",
+    "stock": 39,
+    "category": "Accessories"
+  },
+  {
+    "id": 74,
+    "name": "Car Thermal Mug",
+    "price": 13.70,
+    "sku": "SKU-0074",
+    "image": "https://picsum.photos/seed/74/300/200",
+    "brand": "ThermoGo",
+    "stock": 56,
+    "category": "Home"
+  },
+  {
+    "id": 75,
+    "name": "10-Inch Android Tablet",
+    "price": 155.00,
+    "sku": "SKU-0075",
+    "image": "https://picsum.photos/seed/75/300/200",
+    "brand": "SmartTab",
+    "stock": 9,
+    "category": "Technology"
+  },
+  {
+    "id": 76,
+    "name": "Printed Cotton Shirt",
+    "price": 14.50,
+    "sku": "SKU-0076",
+    "image": "https://picsum.photos/seed/76/300/200",
+    "brand": "CoolWear",
+    "stock": 74,
+    "category": "Clothing"
+  },
+  {
+    "id": 77,
+    "name": "6pc Glass Cup Set",
+    "price": 19.00,
+    "sku": "SKU-0077",
+    "image": "https://picsum.photos/seed/77/300/200",
+    "brand": "HomeOrg",
+    "stock": 32,
+    "category": "Home"
+  },
+  {
+    "id": 78,
+    "name": "XXL Mouse Pad",
+    "price": 8.90,
+    "sku": "SKU-0078",
+    "image": "https://picsum.photos/seed/78/300/200",
+    "brand": "KeyMaster",
+    "stock": 66,
+    "category": "Technology"
+  },
+  {
+    "id": 79,
+    "name": "Eco-Friendly Spiral Notebook",
+    "price": 7.60,
+    "sku": "SKU-0079",
+    "image": "https://picsum.photos/seed/79/300/200",
+    "brand": "PaperArt",
+    "stock": 91,
+    "category": "Stationery"
+  },
+  {
+    "id": 80,
+    "name": "Stackable Pot Set",
+    "price": 55.90,
+    "sku": "SKU-0080",
+    "image": "https://picsum.photos/seed/80/300/200",
+    "brand": "Cocinalo",
+    "stock": 14,
+    "category": "Home"
+  },
+  {
+    "id": 81,
+    "name": "Shockproof Laptop Sleeve",
+    "price": 16.99,
+    "sku": "SKU-0081",
+    "image": "https://picsum.photos/seed/81/300/200",
+    "brand": "SmartTech",
+    "stock": 52,
+    "category": "Accessories"
+  },
+  {
+    "id": 82,
+    "name": "Multiuse Sports Bag",
+    "price": 24.40,
+    "sku": "SKU-0082",
+    "image": "https://picsum.photos/seed/82/300/200",
+    "brand": "UrbanFit",
+    "stock": 27,
+    "category": "Accessories"
+  },
+  {
+    "id": 83,
+    "name": "15-Color Marker Set",
+    "price": 11.40,
+    "sku": "SKU-0083",
+    "image": "https://picsum.photos/seed/83/300/200",
+    "brand": "ColorMix",
+    "stock": 36,
+    "category": "Stationery"
+  },
+  {
+    "id": 84,
+    "name": "Snooze Digital Clock",
+    "price": 21.20,
+    "sku": "SKU-0084",
+    "image": "https://picsum.photos/seed/84/300/200",
+    "brand": "Horarios",
+    "stock": 48,
+    "category": "Technology"
+  },
+  {
+    "id": 85,
+    "name": "LED Headlamp for Night Running",
+    "price": 13.80,
+    "sku": "SKU-0085",
+    "image": "https://picsum.photos/seed/85/300/200",
+    "brand": "Sportica",
+    "stock": 35,
+    "category": "Accessories"
+  },
+  {
+    "id": 86,
+    "name": "Women's Sports Pants",
+    "price": 19.99,
+    "sku": "SKU-0086",
+    "image": "https://picsum.photos/seed/86/300/200",
+    "brand": "Sportica",
+    "stock": 59,
+    "category": "Clothing"
+  },
+  {
+    "id": 87,
+    "name": "Long Unisex Scarf",
+    "price": 15.00,
+    "sku": "SKU-0087",
+    "image": "https://picsum.photos/seed/87/300/200",
+    "brand": "ColdWear",
+    "stock": 46,
+    "category": "Clothing"
+  },
+  {
+    "id": 88,
+    "name": "Flexible Bicycle Lock",
+    "price": 9.60,
+    "sku": "SKU-0088",
+    "image": "https://picsum.photos/seed/88/300/200",
+    "brand": "SafeLite",
+    "stock": 23,
+    "category": "Accessories"
+  },
+  {
+    "id": 89,
+    "name": "IP Security Camera",
+    "price": 43.99,
+    "sku": "SKU-0089",
+    "image": "https://picsum.photos/seed/89/300/200",
+    "brand": "SafeLite",
+    "stock": 17,
+    "category": "Technology"
+  },
+  {
+    "id": 90,
+    "name": "Jump Rope Trainer",
+    "price": 6.10,
+    "sku": "SKU-0090",
+    "image": "https://picsum.photos/seed/90/300/200",
+    "brand": "Sportica",
+    "stock": 109,
+    "category": "Clothing"
+  },
+  {
+    "id": 91,
+    "name": "Athlete Cotton Headband",
+    "price": 4.25,
+    "sku": "SKU-0091",
+    "image": "https://picsum.photos/seed/91/300/200",
+    "brand": "Sportica",
+    "stock": 64,
+    "category": "Clothing"
+  },
+  {
+    "id": 92,
+    "name": "Kids 3-Wheel Scooter",
+    "price": 42.10,
+    "sku": "SKU-0092",
+    "image": "https://picsum.photos/seed/92/300/200",
+    "brand": "PlayNow",
+    "stock": 18,
+    "category": "Toys"
+  },
+  {
+    "id": 93,
+    "name": "Foam Anti-Stress Ball",
+    "price": 2.50,
+    "sku": "SKU-0093",
+    "image": "https://picsum.photos/seed/93/300/200",
+    "brand": "Relaxly",
+    "stock": 144,
+    "category": "Toys"
+  },
+  {
+    "id": 94,
+    "name": "Wooden Puzzle 500pcs",
+    "price": 14.80,
+    "sku": "SKU-0094",
+    "image": "https://picsum.photos/seed/94/300/200",
+    "brand": "PlayNow",
+    "stock": 11,
+    "category": "Toys"
+  },
+  {
+    "id": 95,
+    "name": "Jenga Wooden Game",
+    "price": 16.00,
+    "sku": "SKU-0095",
+    "image": "https://picsum.photos/seed/95/300/200",
+    "brand": "PlayNow",
+    "stock": 28,
+    "category": "Toys"
+  },
+  {
+    "id": 96,
+    "name": "1000-Piece Puzzle",
+    "price": 21.30,
+    "sku": "SKU-0096",
+    "image": "https://picsum.photos/seed/96/300/200",
+    "brand": "PlayNow",
+    "stock": 17,
+    "category": "Toys"
+  },
+  {
+    "id": 97,
+    "name": "Stackable Storage Box",
+    "price": 7.99,
+    "sku": "SKU-0097",
+    "image": "https://picsum.photos/seed/97/300/200",
+    "brand": "HomeOrg",
+    "stock": 69,
+    "category": "Home"
+  },
+  {
+    "id": 98,
+    "name": "Quick-Dry Swim Trunks",
+    "price": 21.15,
+    "sku": "SKU-0098",
+    "image": "https://picsum.photos/seed/98/300/200",
+    "brand": "BeachFit",
+    "stock": 53,
+    "category": "Clothing"
+  },
+  {
+    "id": 99,
+    "name": "3pc Microfiber Towel Set",
+    "price": 17.20,
+    "sku": "SKU-0099",
+    "image": "https://picsum.photos/seed/99/300/200",
+    "brand": "Sportica",
+    "stock": 67,
+    "category": "Clothing"
+  },
+  {
+    "id": 100,
+    "name": "Educational Stacking Toy",
+    "price": 12.70,
+    "sku": "SKU-0100",
+    "image": "https://picsum.photos/seed/100/300/200",
+    "brand": "PlayNow",
+    "stock": 27,
+    "category": "Toys"
+  },
+  {
+    "id": 101,
+    "name": "Reading Glasses +2.5",
+    "price": 8.90,
+    "sku": "SKU-0101",
+    "image": "https://picsum.photos/seed/101/300/200",
+    "brand": "SunProtect",
+    "stock": 55,
+    "category": "Accessories"
+  },
+  {
+    "id": 102,
+    "name": "Men's Long Sleeve Shirt",
+    "price": 28.50,
+    "sku": "SKU-0102",
+    "image": "https://picsum.photos/seed/102/300/200",
+    "brand": "CoolWear",
+    "stock": 41,
+    "category": "Clothing"
+  },
+  {
+    "id": 103,
+    "name": "Women's Casual Sneakers",
+    "price": 35.20,
+    "sku": "SKU-0103",
+    "image": "https://picsum.photos/seed/103/300/200",
+    "brand": "UrbanFit",
+    "stock": 16,
+    "category": "Clothing"
+  },
+  {
+    "id": 104,
+    "name": "Urban Anti-Theft Backpack",
+    "price": 29.99,
+    "sku": "SKU-0104",
+    "image": "https://picsum.photos/seed/104/300/200",
+    "brand": "BackPackly",
+    "stock": 39,
+    "category": "Accessories"
+  },
+  {
+    "id": 105,
+    "name": "Art Brush Set",
+    "price": 10.75,
+    "sku": "SKU-0105",
+    "image": "https://picsum.photos/seed/105/300/200",
+    "brand": "ColorMix",
+    "stock": 27,
+    "category": "Stationery"
+  },
+  {
+    "id": 106,
+    "name": "Geometric Ruler Set",
+    "price": 7.80,
+    "sku": "SKU-0106",
+    "image": "https://picsum.photos/seed/106/300/200",
+    "brand": "PaperArt",
+    "stock": 50,
+    "category": "Stationery"
+  },
+  {
+    "id": 107,
+    "name": "Pro Steel Nail Clipper",
+    "price": 4.90,
+    "sku": "SKU-0107",
+    "image": "https://picsum.photos/seed/107/300/200",
+    "brand": "Fina Piel",
+    "stock": 87,
+    "category": "Accessories"
+  },
+  {
+    "id": 108,
+    "name": "Single Sheet Set",
+    "price": 22.30,
+    "sku": "SKU-0108",
+    "image": "https://picsum.photos/seed/108/300/200",
+    "brand": "Descansa",
+    "stock": 40,
+    "category": "Home"
+  },
+  {
+    "id": 109,
+    "name": "Outdoor Cap with Visor",
+    "price": 13.20,
+    "sku": "SKU-0109",
+    "image": "https://picsum.photos/seed/109/300/200",
+    "brand": "Capster",
+    "stock": 59,
+    "category": "Accessories"
+  },
+  {
+    "id": 110,
+    "name": "Baby Rattle Toy",
+    "price": 6.10,
+    "sku": "SKU-0110",
+    "image": "https://picsum.photos/seed/110/300/200",
+    "brand": "PlayNow",
+    "stock": 51,
+    "category": "Toys"
+  },
+  {
+    "id": 111,
+    "name": "Ergonomic Mouse Pad",
+    "price": 6.99,
+    "sku": "SKU-0111",
+    "image": "https://picsum.photos/seed/111/300/200",
+    "brand": "KeyMaster",
+    "stock": 40,
+    "category": "Technology"
+  },
+  {
+    "id": 112,
+    "name": "Permanent Marker Set x5",
+    "price": 5.40,
+    "sku": "SKU-0112",
+    "image": "https://picsum.photos/seed/112/300/200",
+    "brand": "ColorMix",
+    "stock": 69,
+    "category": "Stationery"
+  },
+  {
+    "id": 113,
+    "name": "Vintage Retro Shirt",
+    "price": 16.40,
+    "sku": "SKU-0113",
+    "image": "https://picsum.photos/seed/113/300/200",
+    "brand": "CoolWear",
+    "stock": 84,
+    "category": "Clothing"
+  },
+  {
+    "id": 114,
+    "name": "Solar Power Bank",
+    "price": 39.50,
+    "sku": "SKU-0114",
+    "image": "https://picsum.photos/seed/114/300/200",
+    "brand": "PowerMax",
+    "stock": 18,
+    "category": "Technology"
+  },
+  {
+    "id": 115,
+    "name": "Camping Metal Mug",
+    "price": 7.30,
+    "sku": "SKU-0115",
+    "image": "https://picsum.photos/seed/115/300/200",
+    "brand": "ThermoGo",
+    "stock": 36,
+    "category": "Home"
+  },
+  {
+    "id": 116,
+    "name": "Kid's Swim Trunks",
+    "price": 10.60,
+    "sku": "SKU-0116",
+    "image": "https://picsum.photos/seed/116/300/200",
+    "brand": "BeachFit",
+    "stock": 23,
+    "category": "Clothing"
+  },
+  {
+    "id": 117,
+    "name": "Collectible Heroes Funko Figures",
+    "price": 13.80,
+    "sku": "SKU-0117",
+    "image": "https://picsum.photos/seed/117/300/200",
+    "brand": "PlayNow",
+    "stock": 15,
+    "category": "Toys"
+  },
+  {
+    "id": 118,
+    "name": "Pro Makeup Brush Set",
+    "price": 14.20,
+    "sku": "SKU-0118",
+    "image": "https://picsum.photos/seed/118/300/200",
+    "brand": "Fina Piel",
+    "stock": 21,
+    "category": "Accessories"
+  },
+  {
+    "id": 119,
+    "name": "Women's Satin Nightdress",
+    "price": 21.90,
+    "sku": "SKU-0119",
+    "image": "https://picsum.photos/seed/119/300/200",
+    "brand": "CoolWear",
+    "stock": 36,
+    "category": "Clothing"
+  },
+  {
+    "id": 120,
+    "name": "Kids UV Sunglasses",
+    "price": 6.80,
+    "sku": "SKU-0120",
+    "image": "https://picsum.photos/seed/120/300/200",
+    "brand": "SunProtect",
+    "stock": 24,
+    "category": "Accessories"
+  },
+  {
+    "id": 121,
+    "name": "Slim Weekly Pill Organizer",
+    "price": 3.30,
+    "sku": "SKU-0121",
+    "image": "https://picsum.photos/seed/121/300/200",
+    "brand": "SaludPlus",
+    "stock": 62,
+    "category": "Home"
+  },
+  {
+    "id": 122,
+    "name": "Bluetooth Karaoke Speaker",
+    "price": 32.10,
+    "sku": "SKU-0122",
+    "image": "https://picsum.photos/seed/122/300/200",
+    "brand": "AudioBeat",
+    "stock": 26,
+    "category": "Technology"
+  },
+  {
+    "id": 123,
+    "name": "Professional Cuticle Clipper",
+    "price": 6.90,
+    "sku": "SKU-0123",
+    "image": "https://picsum.photos/seed/123/300/200",
+    "brand": "Fina Piel",
+    "stock": 77,
+    "category": "Accessories"
+  },
+  {
+    "id": 124,
+    "name": "Forged Steel Chef Knife",
+    "price": 17.30,
+    "sku": "SKU-0124",
+    "image": "https://picsum.photos/seed/124/300/200",
+    "brand": "Cocinalo",
+    "stock": 61,
+    "category": "Home"
+  },
+  {
+    "id": 125,
+    "name": "A4 Magnetic Whiteboard",
+    "price": 6.60,
+    "sku": "SKU-0125",
+    "image": "https://picsum.photos/seed/125/300/200",
+    "brand": "PaperArt",
+    "stock": 52,
+    "category": "Stationery"
+  },
+  {
+    "id": 126,
+    "name": "TSA Luggage Lock",
+    "price": 8.20,
+    "sku": "SKU-0126",
+    "image": "https://picsum.photos/seed/126/300/200",
+    "brand": "SafeLite",
+    "stock": 35,
+    "category": "Accessories"
+  },
+  {
+    "id": 127,
+    "name": "Kids SPF 50 Sunscreen",
+    "price": 11.10,
+    "sku": "SKU-0127",
+    "image": "https://picsum.photos/seed/127/300/200",
+    "brand": "SaludPlus",
+    "stock": 41,
+    "category": "Home"
+  },
+  {
+    "id": 128,
+    "name": "12pc Eco Pencil Set",
+    "price": 5.40,
+    "sku": "SKU-0128",
+    "image": "https://picsum.photos/seed/128/300/200",
+    "brand": "ColorMix",
+    "stock": 70,
+    "category": "Stationery"
+  },
+  {
+    "id": 129,
+    "name": "Double Cotton Pillowcase",
+    "price": 7.90,
+    "sku": "SKU-0129",
+    "image": "https://picsum.photos/seed/129/300/200",
+    "brand": "Descansa",
+    "stock": 41,
+    "category": "Home"
+  },
+  {
+    "id": 130,
+    "name": "Waterproof Travel Pouch",
+    "price": 6.30,
+    "sku": "SKU-0130",
+    "image": "https://picsum.photos/seed/130/300/200",
+    "brand": "Bagluxe",
+    "stock": 34,
+    "category": "Accessories"
+  },
+  {
+    "id": 131,
+    "name": "Kids LED Bubble Gun",
+    "price": 10.80,
+    "sku": "SKU-0131",
+    "image": "https://picsum.photos/seed/131/300/200",
+    "brand": "PlayNow",
+    "stock": 50,
+    "category": "Toys"
+  },
+  {
+    "id": 132,
+    "name": "Mini Watercolor Set",
+    "price": 9.70,
+    "sku": "SKU-0132",
+    "image": "https://picsum.photos/seed/132/300/200",
+    "brand": "ColorMix",
+    "stock": 22,
+    "category": "Stationery"
+  },
+  {
+    "id": 133,
+    "name": "Premium Leather Keychain",
+    "price": 6.60,
+    "sku": "SKU-0133",
+    "image": "https://picsum.photos/seed/133/300/200",
+    "brand": "Fina Piel",
+    "stock": 61,
+    "category": "Accessories"
+  },
+  {
+    "id": 134,
+    "name": "Kids Glitter Slime",
+    "price": 3.90,
+    "sku": "SKU-0134",
+    "image": "https://picsum.photos/seed/134/300/200",
+    "brand": "PlayNow",
+    "stock": 174,
+    "category": "Toys"
+  },
+  {
+    "id": 135,
+    "name": "Silicone Swim Caps",
+    "price": 5.00,
+    "sku": "SKU-0135",
+    "image": "https://picsum.photos/seed/135/300/200",
+    "brand": "BeachFit",
+    "stock": 38,
+    "category": "Accessories"
+  },
+  {
+    "id": 136,
+    "name": "Cold Gel Relax Mask",
+    "price": 4.70,
+    "sku": "SKU-0136",
+    "image": "https://picsum.photos/seed/136/300/200",
+    "brand": "Relaxly",
+    "stock": 19,
+    "category": "Accessories"
+  },
+  {
+    "id": 137,
+    "name": "Wireless Shower Speaker",
+    "price": 19.90,
+    "sku": "SKU-0137",
+    "image": "https://picsum.photos/seed/137/300/200",
+    "brand": "AudioBeat",
+    "stock": 46,
+    "category": "Technology"
+  },
+  {
+    "id": 138,
+    "name": "Floral Waterproof Shower Curtain",
+    "price": 12.60,
+    "sku": "SKU-0138",
+    "image": "https://picsum.photos/seed/138/300/200",
+    "brand": "HomeOrg",
+    "stock": 28,
+    "category": "Home"
+  },
+  {
+    "id": 139,
+    "name": "Velcro Cable Organizer x10",
+    "price": 5.10,
+    "sku": "SKU-0139",
+    "image": "https://picsum.photos/seed/139/300/200",
+    "brand": "PowerMax",
+    "stock": 108,
+    "category": "Technology"
+  },
+  {
+    "id": 140,
+    "name": "Spring Cotton Nightdress",
+    "price": 18.30,
+    "sku": "SKU-0140",
+    "image": "https://picsum.photos/seed/140/300/200",
+    "brand": "CoolWear",
+    "stock": 27,
+    "category": "Clothing"
+  },
+  {
+    "id": 141,
+    "name": "2kg Pair Vinyl Dumbbells",
+    "price": 12.80,
+    "sku": "SKU-0141",
+    "image": "https://picsum.photos/seed/141/300/200",
+    "brand": "Sportica",
+    "stock": 21,
+    "category": "Clothing"
+  },
+  {
+    "id": 142,
+    "name": "7-Button Gaming Mouse",
+    "price": 23.90,
+    "sku": "SKU-0142",
+    "image": "https://picsum.photos/seed/142/300/200",
+    "brand": "LogiTech",
+    "stock": 27,
+    "category": "Technology"
+  },
+  {
+    "id": 143,
+    "name": "Small Card Wallet",
+    "price": 7.30,
+    "sku": "SKU-0143",
+    "image": "https://picsum.photos/seed/143/300/200",
+    "brand": "Fina Piel",
+    "stock": 66,
+    "category": "Accessories"
+  },
+  {
+    "id": 144,
+    "name": "1TB External Hard Drive",
+    "price": 55.70,
+    "sku": "SKU-0144",
+    "image": "https://picsum.photos/seed/144/300/200",
+    "brand": "SmartTech",
+    "stock": 13,
+    "category": "Technology"
+  },
+  {
+    "id": 145,
+    "name": "Magnetic Bookmark Pack",
+    "price": 4.10,
+    "sku": "SKU-0145",
+    "image": "https://picsum.photos/seed/145/300/200",
+    "brand": "PaperArt",
+    "stock": 59,
+    "category": "Stationery"
+  },
+  {
+    "id": 146,
+    "name": "Silicone Foldable Cup",
+    "price": 5.80,
+    "sku": "SKU-0146",
+    "image": "https://picsum.photos/seed/146/300/200",
+    "brand": "ThermoGo",
+    "stock": 47,
+    "category": "Home"
+  },
+  {
+    "id": 147,
+    "name": "1L Kitchen Glass Jar",
+    "price": 7.40,
+    "sku": "SKU-0147",
+    "image": "https://picsum.photos/seed/147/300/200",
+    "brand": "HomeOrg",
+    "stock": 38,
+    "category": "Home"
+  },
+  {
+    "id": 148,
+    "name": "Mini Keychain Bluetooth Speaker",
+    "price": 10.30,
+    "sku": "SKU-0148",
+    "image": "https://picsum.photos/seed/148/300/200",
+    "brand": "AudioBeat",
+    "stock": 44,
+    "category": "Technology"
+  },
+  {
+    "id": 149,
+    "name": "Eco Bamboo Travel Mug",
+    "price": 8.60,
+    "sku": "SKU-0149",
+    "image": "https://picsum.photos/seed/149/300/200",
+    "brand": "ThermoGo",
+    "stock": 48,
+    "category": "Home"
+  },
+  {
+    "id": 150,
+    "name": "Minimalist Wrist Watch",
+    "price": 21.80,
+    "sku": "SKU-0150",
+    "image": "https://picsum.photos/seed/150/300/200",
+    "brand": "Horarios",
+    "stock": 24,
+    "category": "Accessories"
+  }
+]
