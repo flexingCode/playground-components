@@ -3,7 +3,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import type { UserFormData } from "./type";
 import { UserFormSchema } from "./schema";
 import Input from "@/shared/components/Input";
-import { forwardRef, useImperativeHandle } from "react";
+import { forwardRef, useEffect, useImperativeHandle } from "react";
+import { useUserFormStore } from "@/store/UserFormStore";
 
 export interface UserFormRef {
     validate: () => Promise<boolean>;
@@ -11,6 +12,7 @@ export interface UserFormRef {
 }
 
 const UserForm = forwardRef<UserFormRef>((_props, ref) => {
+    const {userForm} = useUserFormStore();
     const form = useForm<UserFormData>({
         resolver: zodResolver(UserFormSchema),
         defaultValues: {
@@ -20,6 +22,10 @@ const UserForm = forwardRef<UserFormRef>((_props, ref) => {
             password: "",
         },
     });
+
+    useEffect(() => {
+        form.reset(userForm.step1);
+    }, [userForm.step1]);
 
     useImperativeHandle(ref, () => ({
         validate: async () => {

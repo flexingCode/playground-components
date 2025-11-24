@@ -1,7 +1,14 @@
+import { scan } from "react-scan";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+scan({
+  enabled: true,
+});
+
+
 const Providers = ({ children }: { children: React.ReactNode }) => {
+  
   return (
     <>
       {children}

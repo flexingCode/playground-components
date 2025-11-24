@@ -3,7 +3,8 @@ import type { AddressFormData } from "./type";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { AddressFormSchema } from "./shcema";
 import Input from "@/shared/components/Input";
-import { forwardRef, useImperativeHandle } from "react";
+import { forwardRef, useEffect, useImperativeHandle } from "react";
+import { useUserFormStore } from "@/store/UserFormStore";
 
 export interface AddressUserFormRef {
     validate: () => Promise<boolean>;
@@ -11,6 +12,8 @@ export interface AddressUserFormRef {
 }
 
 const AddressUserForm = forwardRef<AddressUserFormRef>((_props, ref) => {
+    const {userForm} = useUserFormStore();
+    
     const form = useForm<AddressFormData>({
         resolver: zodResolver(AddressFormSchema),
         defaultValues: {
@@ -22,6 +25,10 @@ const AddressUserForm = forwardRef<AddressUserFormRef>((_props, ref) => {
             country: "",
         },
     });
+
+    useEffect(() => {
+        form.reset(userForm.step2);
+    }, [userForm.step2]);
 
     useImperativeHandle(ref, () => ({
         validate: async () => {

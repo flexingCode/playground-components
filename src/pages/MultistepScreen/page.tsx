@@ -4,8 +4,10 @@ import { useRef, useState } from "react";
 import UserForm, { type UserFormRef } from "./components/UserForm";
 import AddressUserForm, { type AddressUserFormRef } from "./components/AdressUserForm";
 import { toast } from "react-toastify";
+import { useUserFormStore } from "@/store/UserFormStore";
 
 const MultistepScreen = () => {
+  const {setStep1, setStep2, reset:resetUserForm} = useUserFormStore();
   const [currentStep, setCurrentStep] = useState("step-1");
   const userFormRef = useRef<UserFormRef>(null);
   const addressFormRef = useRef<AddressUserFormRef>(null);
@@ -40,6 +42,12 @@ const MultistepScreen = () => {
   const handleNextStep = async (nextStepId: string) => {
     const isValid = await validateCurrentStep();
     if (isValid) {
+      if (currentStep === "step-1") {
+        setStep1(userFormRef.current?.getValues()!);
+      }
+      if (currentStep === "step-2") {
+        setStep2(addressFormRef.current?.getValues()!);
+      }
       setCurrentStep(nextStepId);
     }
   }
@@ -57,6 +65,7 @@ const MultistepScreen = () => {
       console.log("User Data:", userData);
       console.log("Address Data:", addressData);
       toast.success("Form submitted successfully!");
+      resetUserForm();
     } 
   }
 

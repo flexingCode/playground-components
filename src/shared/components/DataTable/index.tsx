@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { memo, useMemo, useState } from "react";
 import BodyTable from "./components/BodyTable";
 import HeaderTable from "./components/HeaderTable";
 import type { DataTableProps, TableColumn } from "./types";
@@ -12,6 +12,9 @@ type SortState<T> = {
     column: TableColumn<T> | null;
     direction: SortDirection;
 };
+
+const MemoDownloadIcon = memo(DownloadIcon);
+const MemoPagination = memo(Pagination);
 
 const DataTable = <T,>(props: DataTableProps<T>) => {
     const { data, columns, exportable, pagination, multiSelect } = props;
@@ -86,13 +89,14 @@ const DataTable = <T,>(props: DataTableProps<T>) => {
     const handleExport = () => {
         downloadExportedCSV(selectedRows, 'data.csv');
     }
+    
 
     return (
         <div className="flex flex-col gap-4">
             {exportable && (
                 <div className="flex justify-end mb-4">
                     <Button variant="primary" onClick={handleExport} disabled={selectedRows.length === 0}>
-                        <DownloadIcon className="w-4 h-4" />
+                        <MemoDownloadIcon className="w-4 h-4" />
                         Export
                     </Button>
                 </div>
@@ -117,7 +121,7 @@ const DataTable = <T,>(props: DataTableProps<T>) => {
                 />
             </table>
             {pagination && (
-                <Pagination
+                <MemoPagination
                     totalPages={pagination.totalPages}
                     currentPage={pagination.currentPage}
                     itemsPerPage={pagination.itemsPerPage}
