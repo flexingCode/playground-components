@@ -5,20 +5,20 @@ import type { StepContentProps, StepProps } from "./Step/type";
 type SteperProps = {
     currentStep: string;
     steps: (StepProps & StepContentProps)[];
-    onNextStep: (nextStepId: string) => void;
+    onNextStep: (nextStepId: string) => void | Promise<void>;
     onPreviousStep: (previousStepId: string) => void;
-    onFinish: () => void;
+    onFinish: () => void | Promise<void>;
 }
 
 const Steper = (props: SteperProps) => {
     const { currentStep, steps, onNextStep, onPreviousStep, onFinish } = props;
 
-    const handleNextStep = () => {
+    const handleNextStep = async () => {
         if (currentStep === steps[steps.length - 1].id) {
-            onFinish();
+            await onFinish();
         } else {
             const nextStepId = steps.findIndex((step) => step.id === currentStep) + 1;
-            onNextStep(steps[nextStepId].id);
+            await onNextStep(steps[nextStepId].id);
         }
     }
 
