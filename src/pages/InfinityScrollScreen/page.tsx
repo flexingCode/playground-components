@@ -18,16 +18,23 @@ const renderProductSkeleton = () => {
 const InfinityScrollScreen = () => {
   const [localProducts, setLocalProducts] = useState<Product[]>([]);
   const [searchValue, setSearchValue] = useState<string>("");
+  const [brandValue, setBrandValue] = useState<string>("");
 
   useEffect(() => {
     setLocalProducts(products.slice(0, 20));
   }, []);
-
-  const filterProducts = (searchValue: string): Product[] => {
-    return products.filter(product => product.name.toLowerCase().includes(searchValue.toLowerCase()));
+  const filterProducts = (nameSearch: string, brandSearch: string): Product[] => {
+    return products.filter(product => {
+      const matchesName = nameSearch.trim() === "" || 
+                         product.name.toLowerCase().includes(nameSearch.toLowerCase());
+      const matchesBrand = brandSearch.trim() === "" || 
+                          product.brand.toLowerCase().includes(brandSearch.toLowerCase());
+      
+      return matchesName && matchesBrand;
+    });
   }
 
-  const filteredProducts = filterProducts(searchValue);
+  const filteredProducts = filterProducts(searchValue, brandValue);
   const hasMore = localProducts.length < filteredProducts.length;
 
   const handleLoadMore = () => {
@@ -40,7 +47,14 @@ const InfinityScrollScreen = () => {
 
   const handleSearch = (value: string) => {
     setSearchValue(value);
-    setLocalProducts(products.filter(product => product.name.toLowerCase().includes(value.toLowerCase())));
+    const filtered = filterProducts(value, brandValue);
+    setLocalProducts(filtered.slice(0, 20));
+  };
+
+  const handleBrandChange = (value: string) => {
+    setBrandValue(value);
+    const filtered = filterProducts(searchValue, value);
+    setLocalProducts(filtered.slice(0, 20));
   };
 
   const renderProduct = (product: Product) => {
@@ -59,7 +73,12 @@ const InfinityScrollScreen = () => {
 
   return (
     <div className="flex flex-col gap-4">
-      <SearchProductSection searchValue={searchValue} onSearchChange={handleSearch} />
+      <SearchProductSection 
+        searchValue={searchValue} 
+        brandValue={brandValue}
+        onSearchChange={handleSearch} 
+        onBrandChange={handleBrandChange} 
+      />
       <InfinityList
         items={localProducts}
         renderItem={renderProduct}
