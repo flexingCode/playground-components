@@ -1,4 +1,4 @@
-type InputProps = {
+export type InputProps = {
     name?: string;
     value: string;
     onTextChange: (text: string) => void;

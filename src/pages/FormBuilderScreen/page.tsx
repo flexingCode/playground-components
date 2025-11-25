@@ -1,5 +1,7 @@
+import CreateEventForm from "./components/CreateEventForm.tsx";
+
 const FormBuilderScreen = () => {
-  return <div>FormBuilderScreen</div>;
+  return <CreateEventForm />;
 };
 
 export default FormBuilderScreen;
