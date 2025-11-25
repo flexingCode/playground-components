@@ -1,7 +1,7 @@
 import products from "@/data/products.json";
 import InfinityList from "@/shared/components/InfinityList";
 import type { Product } from "@/types/products";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import ProductCard from "./components/ProductCard";
 import SearchProductSection from "./components/SearchProductSection";
 
@@ -23,7 +23,7 @@ const InfinityScrollScreen = () => {
   useEffect(() => {
     setLocalProducts(products.slice(0, 20));
   }, []);
-  const filterProducts = (nameSearch: string, brandSearch: string): Product[] => {
+  const filterProducts = useCallback((nameSearch: string, brandSearch: string): Product[] => {
     return products.filter(product => {
       const matchesName = nameSearch.trim() === "" || 
                          product.name.toLowerCase().includes(nameSearch.toLowerCase());
@@ -32,30 +32,30 @@ const InfinityScrollScreen = () => {
       
       return matchesName && matchesBrand;
     });
-  }
+  }, [products]);
 
   const filteredProducts = filterProducts(searchValue, brandValue);
   const hasMore = localProducts.length < filteredProducts.length;
 
-  const handleLoadMore = () => {
+  const handleLoadMore = useCallback(() => {
     setTimeout(() => {
       if(hasMore) {
         setLocalProducts(filteredProducts.slice(0, localProducts.length + 20));
       }
     }, 3000);
-  };
+  }, [hasMore, filteredProducts]);
 
-  const handleSearch = (value: string) => {
+  const handleSearch = useCallback((value: string) => {
     setSearchValue(value);
     const filtered = filterProducts(value, brandValue);
     setLocalProducts(filtered.slice(0, 20));
-  };
+  }, [filterProducts]);
 
-  const handleBrandChange = (value: string) => {
+  const handleBrandChange = useCallback((value: string) => {
     setBrandValue(value);
     const filtered = filterProducts(searchValue, value);
     setLocalProducts(filtered.slice(0, 20));
-  };
+  }, [filterProducts]);
 
   const renderProduct = (product: Product) => {
     return (

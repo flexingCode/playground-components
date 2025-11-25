@@ -1,6 +1,6 @@
 import Steper from "@/shared/components/Steper";
 import { House, UserIcon } from "lucide-react";
-import { useRef, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import UserForm, { type UserFormRef } from "./components/UserForm";
 import AddressUserForm, { type AddressUserFormRef } from "./components/AdressUserForm";
 import { toast } from "react-toastify";
@@ -22,7 +22,7 @@ const MultistepScreen = () => {
     return true;
   };
 
-  const steps = [
+  const steps = useMemo(() => ([
     {
       id: "step-1",
       title: "User Information",
@@ -37,7 +37,7 @@ const MultistepScreen = () => {
       icon: <House />,
       content: <AddressUserForm ref={addressFormRef} />,
     }
-  ]
+  ]), [userFormRef, addressFormRef]);
 
   const handleNextStep = async (nextStepId: string) => {
     const isValid = await validateCurrentStep();
@@ -56,7 +56,7 @@ const MultistepScreen = () => {
     setCurrentStep(previousStepId);
   }
 
-  const handleFinish = async () => {
+  const handleFinish = useCallback(async () => {
     const isValid = await validateCurrentStep();
     if (isValid) {
       console.log("Finish");
@@ -67,7 +67,7 @@ const MultistepScreen = () => {
       toast.success("Form submitted successfully!");
       resetUserForm();
     } 
-  }
+  }, [validateCurrentStep, resetUserForm, userFormRef, addressFormRef]);
 
   return (
     <div>
