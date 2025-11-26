@@ -1,19 +1,115 @@
-# React + TypeScript + Vite
+# Playground Complex Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto de demostración con componentes complejos en React + TypeScript + Vite, que incluye:
+- 📊 **DataTable**: Tabla con paginación, filtros y exportación
+- ♾️ **Infinity Scroll**: Lista infinita con búsqueda y filtros
+- 📝 **Form Builder**: Formulario dinámico con validaciones usando react-hook-form y Zod
+- 🔢 **Multistep Form**: Formulario de múltiples pasos
 
-Currently, two official plugins are available:
+## 🚀 Cómo ejecutar el proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisitos
 
-## React Compiler
+- Node.js 18+ instalado
+- pnpm, npm o yarn
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Instalación
 
-## Expanding the ESLint configuration
+1. **Clonar el repositorio** (si aplica):
+```bash
+git clone <url-del-repositorio>
+cd playground-complex-components
+```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+2. **Instalar dependencias**:
+
+Con **pnpm** (recomendado):
+```bash
+pnpm install
+```
+
+Con **npm**:
+```bash
+npm install
+```
+
+Con **yarn**:
+```bash
+yarn install
+```
+
+### Ejecutar en desarrollo
+
+Con **pnpm**:
+```bash
+pnpm dev
+```
+
+Con **npm**:
+```bash
+npm run dev
+```
+
+Con **yarn**:
+```bash
+yarn dev
+```
+
+El proyecto se abrirá en [http://localhost:5173](http://localhost:5173)
+
+### Otros comandos
+
+```bash
+# Compilar para producción
+pnpm build
+
+# Previsualizar build de producción
+pnpm preview
+
+# Ejecutar linter
+pnpm lint
+```
+
+## 📁 Estructura del proyecto
+
+```
+src/
+├── pages/              # Páginas/vistas principales
+│   ├── DataTableScreen/
+│   ├── FormBuilderScreen/
+│   ├── InfinityScrollScreen/
+│   └── MultistepScreen/
+├── shared/             # Componentes compartidos
+│   ├── components/     # Componentes reutilizables
+│   └── layouts/        # Layouts de la aplicación
+├── data/              # Datos estáticos (JSON)
+├── store/             # Estado global (Zustand)
+├── types/             # Definiciones de tipos TypeScript
+└── utils/             # Funciones utilitarias
+```
+
+## 🛠️ Tecnologías utilizadas
+
+- **React 19** - Biblioteca UI
+- **TypeScript** - Tipado estático
+- **Vite** - Build tool y dev server
+- **React Router** - Enrutamiento
+- **React Hook Form** - Manejo de formularios
+- **Zod** - Validación de esquemas
+- **Zustand** - Estado global
+- **Tailwind CSS** - Estilos
+- **Lucide React** - Iconos
+- **React Toastify** - Notificaciones
+
+## ⚙️ Configuración adicional
+
+### React Compiler
+
+El React Compiler no está habilitado en este proyecto debido a su impacto en el rendimiento de desarrollo y build. Para agregarlo, consulta [esta documentación](https://react.dev/learn/react-compiler/installation).
+
+### Expandir la configuración de ESLint
+
+Si estás desarrollando una aplicación para producción, se recomienda actualizar la configuración para habilitar reglas de lint con type-awareness:
 
 ```js
 export default defineConfig([
@@ -43,7 +139,7 @@ export default defineConfig([
 ])
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+También puedes instalar [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) y [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) para reglas de lint específicas de React:
 
 ```js
 // eslint.config.js
